@@ -1,5 +1,7 @@
 # Frontend Interview — Transaction Dashboard
 
+**Exercise instructions:** The full prompt, requirements, and evaluation criteria are in **[PROMPT.md](PROMPT.md)**. Read that for your task; this README covers how to run the app and use the API.
+
 **Node:** Use Node 20. If you use [nvm](https://github.com/nvm-sh/nvm), run `nvm use` in this repo. [Volta](https://volta.sh/) will pick up Node 20 automatically.
 
 ## Run the app
@@ -10,20 +12,6 @@ npm run dev
 ```
 
 No separate API server. The app uses a mock API (MSW) that runs in the browser. Data resets on a full page refresh.
-
----
-
-## Your task
-
-Build a small fraud/security dashboard with two main views:
-
-1. **Transactions overview** — List all transactions with key info (amount, status, date, customer, risk score, etc.). Let the user select one to view details. Data: `GET /api/transactions`.
-
-2. **Transaction detail** — Show full details for one transaction, surface fraud signals in a useful way, and let the user take an action (approve, decline, or mark reviewed). Data: `GET /api/transactions/:id` and `PATCH /api/transactions/:id`.
-
-**Requirements:** Fetch from the API, handle loading and error states, keep components clear and maintainable, make reasonable UI/UX choices, and update the UI after taking an action.
-
-**Time:** You’re not expected to finish everything. If you run out of time, be ready to discuss what you’d do next, tradeoffs, and how you’d improve the solution.
 
 ---
 
