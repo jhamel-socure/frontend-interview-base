@@ -1,6 +1,4 @@
-# Frontend Interview — Transaction Dashboard
-
-**Exercise instructions:** The full prompt, requirements, and evaluation criteria are in the **Google Doc shared with you** (not in this repo). This README covers how to run the app and use the API.
+# Frontend — Transaction Dashboard
 
 **Node:** Use Node 20. If you use [nvm](https://github.com/nvm-sh/nvm), run `nvm use` in this repo. [Volta](https://volta.sh/) will pick up Node 20 automatically.
 
